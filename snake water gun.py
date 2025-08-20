@@ -26,30 +26,24 @@ while True:
         print(f"your choice:{user_choice}","           ",f"computer's choice:{choice_comp}")
         print("DRAW")
         input("press enter to proceed")
-    
-
+        
     else:
         match a:
             case 1:
                 if(choice_comp==elements[1]):
                     win()
-                
                 else:
                     lose()
                 
-        
             case 2:
                 if(choice_comp==elements[2]):
                     win()
-                
                 else:
                     lose()
                 
-        
             case 3:
                 if(choice_comp==elements[1]):
                     win()
-                
                 else:
                     lose()
     play_again=input("Do you want to play again(y/n):")
@@ -70,4 +64,5 @@ while True:
 
     
             
+
 
