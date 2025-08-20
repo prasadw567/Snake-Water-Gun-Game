@@ -29,6 +29,7 @@ while True:
         
     else:
         match a:
+        
             case 1:
                 if(choice_comp==elements[1]):
                     win()
@@ -49,20 +50,3 @@ while True:
     play_again=input("Do you want to play again(y/n):")
     if(play_again=="n"):
         break
-    
-
-
-
-
-
-
-
-
-
-
-
-
-    
-            
-
-
